@@ -6,6 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
+$primary-color: #119DA4; 
+$secondary-color: #80DED9;
+
  .icon-block {
     padding: 0 15px;
   }
@@ -13,7 +16,21 @@
       font-size: inherit;
   }
 
-  .test {
-      display:block;
-      font-size: 24px;
-  }
+  body {
+    /* Background pattern from Toptal Subtle Patterns */
+    background-image: url("../images/funky-lines.png");
+    height: 100%;
+}
+
+.container {
+    background-color: #ffffff;
+}
+
+.panel-title {
+    display: block;
+    padding: 15px;
+    font-size: 16px;
+    background-color: $primary-color;
+    color: #ffffff;
+}
+

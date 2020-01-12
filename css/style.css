@@ -13,8 +13,21 @@
   font-size: inherit;
 }
 
-.test {
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("../images/funky-lines.png");
+  height: 100%;
+}
+
+.container {
+  background-color: #ffffff;
+}
+
+.panel-title {
   display: block;
-  font-size: 24px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #119DA4;
+  color: #ffffff;
 }
 /*# sourceMappingURL=style.css.map */
