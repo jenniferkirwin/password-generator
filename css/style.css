@@ -5,10 +5,16 @@
  *
  * Made By MaterializeCSS.com
  */
-
 .icon-block {
   padding: 0 15px;
 }
+
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
 }
+
+.test {
+  display: block;
+  font-size: 24px;
+}
+/*# sourceMappingURL=style.css.map */
